@@ -1,0 +1,509 @@
+/*
+Rose Michael P. Mormino
+12/8/21
+Green Bean Landing Page Stylesheet - styles.css
+For index.html
+*/
+
+ /*font-family: 'Hanuman', serif;
+font-family: 'Poppins', sans-serif;*/
+
+/*RESET OF BROWSER STYLES*/
+
+body,
+header,
+footer,
+main,
+p,
+h3,
+h4,
+h5,
+div,
+ul,
+li,
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+                                                                    /*STYLES FOR A MOBILE VIEWPORT*/
+
+@media screen and (min-width: 0px) {
+
+/*STYLES FOR RESPONSIVE IMG*/
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background: #F4E8D0;
+    position: absolute;
+}
+
+
+/*STYLES FOR HEADER*/
+
+header {
+    display: block;
+    color: #fff;
+    background: url(../images/header-bg.jpg) center;
+    min-width: 610px;
+}
+
+header img {
+    display: block;
+    float: left;
+}
+
+.cta {
+    font-size: 4rem;
+    font-family: Hanuman, elephant, serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+header a {
+    border-radius: 30px;
+    padding-left: .6em; padding-right: .6em; padding-top: .2em;
+    text-decoration: none;
+    background: #009245;
+    color: #fff;    
+}
+
+
+header a:visited {
+    color: #009245;
+    background: #fff;
+
+}
+
+
+
+main {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    color: #553218;
+    background: #F4E8D0;
+    padding-bottom: 1em;
+}
+
+.bonusBeans{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/*STYLES FOR HEADINGS*/
+
+main h3 {
+    color: #009245;
+    font-family: Hanuman, elephant, serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: .5em
+}
+
+.nowRegistered {
+    font-size: 2.7em;
+}
+
+main h4 {
+    color: #085942;
+    font-family: Hanuman, elephant, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+main h5 {
+    color: #553218;
+    font-family: Hanuman, elephant, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*STYLE FOR KEYWORDS*/
+.human-beans, a {
+    color: #009245;
+    text-decoration: none;
+}
+
+
+.whis-quay {
+    color: #009245;
+    font-size: 3em;
+    text-align: center;
+}
+
+.whis-quay-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 3em auto;
+}
+
+.rsvpButton a{
+    color: #fff;
+}
+
+.rsvpButton {
+    background: #5cbf2a;
+    border-radius: 50px;
+    padding: .7em;
+    border: none;
+    display: block;
+    margin: .3em auto .8em auto;
+    color: #fff;
+    font-size: 2em;
+}
+
+main p, li {
+    font-family: Poppins, sans-serif;
+    margin-left: 2em;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #553218;
+}
+
+/*STYLE FOR LISTS*/
+
+main ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.newLocation {
+    padding-left: 4rem;
+}
+
+.beanbox, .beanbox a {
+    color: #009245;
+    font-family: Hanuman, elephant, serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main li {
+    font-size: 1.5em;
+}
+
+/*STYLE FOR FORM*/
+
+main form {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-family: Hanuman, elephant, serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    background: #553218;
+    padding: 1.5em 1em 1.5em 1em;
+    margin: .2em;
+    border-radius: 30px;
+}
+
+main legend {
+    font-size: 1.3em;
+}
+
+fieldset {
+    padding-bottom: 1em;
+}
+
+form img {
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: .5em;
+    border-radius: 30px;
+}
+
+
+/*STYLE FOR MAP*/
+
+.googlemaps {
+    max-width: 800px;
+    margin: .5em auto 3em auto;
+}
+
+
+/*STYLE FOR FOOTER*/
+
+footer { 
+    background: #F4E8D0;
+    padding: 1em;
+    border-top: 15px solid #009245
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+.copyright {
+    font-family: Poppins, sans-serif;
+    color: #009245;
+    text-align: center;
+    font-size: 1em;
+}
+
+}
+
+                                                                    /*STYLES FOR A TABLET VIEWPORT*/
+@media screen and (min-width: 850px) and (max-width: 1100px){
+
+body { 
+    background: url(../images/scattered-beans-bg.jpg) repeat fixed;
+}    
+
+/*STYLE RULES FOR HEADER*/
+header {
+    width: 100vw;
+    background: url(../images/header-bg.jpg) center;
+}
+
+.cta {
+    text-align: center;
+    font-size: 3em;
+}
+
+header a {
+    border-radius: 30px;
+    padding-left: .6em; padding-right: .6em; padding-top: .2em;
+    text-decoration: none;
+    background: #009245;
+    color: #fff;    
+}
+
+
+header a:visited {
+    color: #009245;
+    background: #fff;
+}
+
+header img {
+    float: none;
+    margin: 0 auto;
+}
+
+/*STYLE RULES FOR MAIN*/
+main{
+    margin-top: 2.5em;
+    max-width: 80%;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+/*STYLES FOR FORM*/
+main form {
+    text-align: left;
+    padding: 2em;
+}
+
+/*STYLES FOR MAP*/
+
+.googlemaps {
+    width: 100%;
+    height: 100%;
+    margin: .5em auto 3em auto;
+}
+
+}
+
+                                                                    /*STYLES FOR A DESKTOP VIEWPORT*/
+@media screen and (min-width: 1101px) {
+
+
+/*STYLES FOR HEADER*/
+    
+header {
+    width: 100vw;
+    display: block;
+    color: #fff;
+    background: none;
+}
+    
+header img {
+    display: block;
+    float: left;
+    position: relative;
+    top: 0;
+}
+    
+.cta {
+    text-align: left;
+    background: url(../images/header-bg.jpg) center;
+    font-size: 4.1rem;
+    font-family: Hanuman, elephant, serif;
+    font-weight: 900;
+    margin-bottom: .5em;
+}
+    
+header a {
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    padding: 0;
+}
+    
+header a:visited {
+    color: #fff;
+}
+    
+header a:hover {
+    color: #009245;
+}
+    
+/*STYLES FOR BODY*/
+    
+body { 
+    background: url(../images/scattered-beans-bg.jpg) repeat fixed;
+}
+    
+main {
+    clear: both;
+    display: block;
+    margin: 0 auto 2.5em auto;
+    background-color: #F4E8D0;
+    color: #553218;
+    width: 70%;
+    border-radius: 30px;
+    padding-bottom: 1em;
+}
+    
+/*STYLES FOR HEADINGS*/
+    
+main h3 {
+    color: #009245;
+    font-family: Hanuman, elephant, serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: .5em
+}
+    
+main h4 {
+        color: #085942;
+        font-family: Hanuman, elephant, serif;
+        font-size: 2em;
+        text-align: center;
+}
+    
+main h5 {
+    color: #553218;
+    font-family: Hanuman, elephant, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+/*STYLE FOR KEYWORDS*/
+.human-beans, a {
+    color: #009245;
+    text-decoration: none;
+}
+    
+main p, li {
+    font-family: Poppins, sans-serif;
+    margin-left: 2em;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #553218;
+    }
+    
+/*STYLE FOR LISTS*/
+    
+main ul {
+    list-style: none;
+    padding-left: 1em;
+}
+    
+    .beanbox, .beanbox a {
+    color: #009245;
+    font-family: Hanuman, elephant, serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+    
+main li {
+    font-size: 1.5em;
+}
+    
+/*STYLE FOR FORM*/
+    
+main form {
+    display: block;
+    color: #fff;
+    text-align: left;
+    font-family: Hanuman, elephant, serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    width: 20em;
+    background: #553218;
+    padding: 1.5em 0 1.5em 4em;
+    margin: .1em 0 1em 3em;
+    border-radius: 30px;
+}
+    
+main legend {
+    font-size: 1.3em;
+}
+    
+fieldset {
+    padding-bottom: 1em;
+}
+    
+form img {
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: .5em;
+    border-radius: 30px;
+}
+   
+    
+/*STYLE FOR FOOTER*/
+    
+footer { 
+    background: #F4E8D0;
+    padding: 1em;
+    border-top: 15px solid #009245
+}
+    
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+    
+.copyright {
+    font-family: Poppins, sans-serif;
+    color: #009245;
+    text-align: center;
+    font-size: 1em;
+}
+
+}
+
+/*STYLES FOR CALENDAR LINK*/
+
+.addToCalendar {
+    background-color:#44c767;
+    border-radius:28px;
+    display: block;
+    text-align: center;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Poppins, sans-serif;
+    font-size:1.5em;
+    padding:16px 31px;
+    text-decoration:none;
+    margin: 0 30%;
+}
+
+.addToCalendar:hover {
+    background-color:#5cbf2a;
+}
+
+.addToCalendar:active {
+    position:relative;top:1px;
+}
